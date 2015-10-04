@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Travelbrag</title>
+	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.css">
+	<script src="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.js"></script>
+
+	<link rel="stylesheet" href="map.css">
+    <script src="data/1997.js"></script>
+	<script src="data/2008.js"></script>
+    <script src="data/2009.js"></script>
+    <script src="data/2010.js"></script>
+    <script src="data/2011.js"></script>
+	<script src="data/2012.js"></script>
+	<script src="data/2013.js"></script>
+	<script src="data/2014.js"></script>
+	<script src="data/2015.js"></script>
+	<script src="data/cities.js"></script>
+	<script src="data/travellers.js"></script>
+	<script src="data/all.js"></script>
+	<script src="model.js"></script>
+	<script src="viewmodel.js"></script>
+	<script src="view.js"></script>
+<body>
+	<div id="title">
+		<span id="travelbrag">Travelbrag</span>
+		<span id="separator">|</span>
+		<span id="name"></span>
+	</div>
+	<div id="map"></div>
+	<script>
+		var mapElement = document.getElementById("map");
+		document.getElementById("name").innerText = view.onLoad(mapElement);
+		document.title = document.getElementById("title").innerText;
+	</script>

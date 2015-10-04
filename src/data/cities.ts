@@ -1,0 +1,384 @@
+/// <reference path="../model.ts" />
+
+module data {
+	export let cities: model.CityMap = {
+        "Anaheim": {
+            name: "Anaheim",
+            country: "USA",
+            lat: 33.835,
+            lng: -117.915
+        },
+		"Ann Arbor": {
+			name: "Ann Arbor",
+			country: "USA",
+			lat: 42.278,
+			lng: -83.741
+		},
+		"Annaka": {
+			name: "Annaka",
+			country: "JPN",
+			lat: 36.31667,
+			lng: 138.9
+		},
+        "Atlanta": {
+            name: "Atlanta",
+            country: "USA",
+            lat: 33.749,
+            lng: -84.388
+        },
+		"Austin": {
+			name: "Austin",
+			country: "USA",
+			lat: 30.267,
+			lng: -97.743
+		},
+        "Birmingham": {
+            name: "Birmingham",
+            country: "GBR",
+            lat: 52.481,
+            lng: -1.9
+        },
+        "Bowen Island": {
+            name: "Bowen Island",
+            country: "CAN",
+            lat: 49.378,
+            lng: -123.366
+        },
+        "Brussels": {
+            name: "Brussels",
+            country: "BEL",
+            lat: 50.85,
+            lng: 4.349
+        },
+		"Buenos Aires": {
+			name: "Buenos Aires",
+			country: "ARG",
+			lat: -34.613,
+			lng: -58.377
+		},
+		"Calgary": {
+			name: "Calgary",
+			country: "CAN",
+			lat: 51.05,
+			lng: -114.085
+		},
+        "Charlottesville": {
+            name: "Charlottesville",
+            country: "USA",
+            lat: 38.029,
+            lng: -78.477
+        },
+        "Charlottetown": {
+            name: "Charlottetown",
+            country: "CAN",
+            lat: 46.235,
+            lng: -63.127
+        },
+		"Chicago": {
+			name: "Chicago",
+			country: "USA",
+			lat: 41.85,
+			lng: -87.65
+		},
+		"Creston": {
+			name: "Creston",
+			country: "CAN",
+			lat: 49.1,
+			lng: -116.502
+		},
+        "Edinburgh": {
+            name: "Edinburgh",
+            country: "GBR",
+            lat: 55.952,
+            lng: -3.196
+        },
+        "Fredericton": {
+            name: "Fredericton",
+            country: "CAN",
+            lat: 45.945,
+            lng: -66.666
+        },
+        "Ghent": {
+            name: "Ghent",
+            country: "BEL",
+            lat: 51.05,
+            lng: 3.717
+        },
+        "Glasgow": {
+            name: "Glasgow",
+            country: "GBR",
+            lat: 55.865,
+            lng: -4.258
+        },
+		"Guelph": {
+			name: "Guelph",
+			country: "CAN",
+			lat: 43.546,
+			lng: -80.256
+		},
+        "Halifax": {
+            name: "Halifax",
+            country: "CAN",
+            lat: 44.646,
+            lng: -63.573
+        },
+		"Hiroshima": {
+			name: "Hiroshima",
+			country: "JPN",
+			lat: 35.02107,
+			lng: 132.45937
+		},
+		"Kelowna": {
+			name: "Kelowna",
+			country: "CAN",
+			lat: 49.883,
+			lng: -119.486
+		},
+        "Kingston": {
+            name: "Kingston",
+            country: "CAN",
+            lat: 44.23,
+            lng: -76.481
+        },
+		"Kyoto": {
+			name: "Kyoto",
+			country: "JPN",
+			lat: 35.02107,
+			lng: 135.75385
+		},
+        "Lancaster": {
+            name: "Lancaster",
+            country: "GBR",
+            lat: 54.046,
+            lng: -2.8
+        },
+		"Langley": {
+			name: "Langley",
+			country: "USA",
+			lat: 48.04,
+			lng: -122.406
+		},
+		"Manning Park": {
+			name: "Manning Park",
+			country: "CAN",
+			lat: 49.067,
+			lng: -120.783
+		},
+		"Meridian": {
+			name: "Meridian",
+			country: "USA",
+			lat: 43.612,
+			lng: -116.392
+		},
+		"Monck Park": {
+			name: "Monck Park",
+			country: "CAN",
+			lat: 50.177,
+			lng: -120.533
+		},
+		"Montclair": {
+			name: "Montclair",
+			country: "USA",
+			lat: 40.826,
+			lng: -74.211
+		},
+        "Monterey": {
+            name: "Monterey",
+            country: "USA",
+            lat: 36.6,
+            lng: -121.895
+        },
+		"Montreal": {
+			name: "Montréal",
+			country: "CAN",
+			lat: 45.509,
+			lng: -73.588
+		},
+		"Mountain View": {
+			name: "Mountain View",
+			country: "USA",
+			lat: 37.386,
+			lng: -122.084
+		},
+		"Nara": {
+			name: "Nara",
+			country: "JPN",
+			lat: 34.68505,
+			lng: 135.80485
+		},
+		"Nelson": {
+			name: "Nelson",
+			country: "CAN",
+			lat: 49.5,
+			lng: -117.286
+		},
+		"New York": {
+			name: "New York",
+			country: "USA",
+			lat: 40.714,
+			lng: -74.006
+		},
+		"Osaka": {
+			name: "Osaka",
+			country: "JPN",
+			lat: 34.69374,
+			lng: 135.50218
+		},
+		"Osoyoos": {
+			name: "Osoyoos",
+			country: "CAN",
+			lat: 49.015,
+			lng: -119.455
+		},
+		"Ottawa": {
+			name: "Ottawa",
+			country: "CAN",
+			lat: 45.422,
+			lng: -75.7057
+		},
+        "Pittsburgh": {
+            name: "Pittsburgh",
+            country: "USA",
+            lat: 40.441,
+            lng: -79.996
+        },
+        "Portland": {
+            name: "Portland",
+            country: "USA",
+            lat: 45.523,
+            lng: -122.676
+        },
+		"Punta Cana": {
+			name: "Punta Cana",
+			country: "DOM",
+			lat: 18.582,
+			lng: -68.404
+		},
+        "Quebec City": {
+            name: "Québec",
+            country: "CAN",
+            lat: 46.812,
+            lng: -71.215
+        },
+        "Raleigh": {
+            name: "Raleigh",
+            country: "USA",
+            lat: 35.772,
+            lng: -78.639
+        },
+		"Redmond": {
+			name: "Redmond",
+			country: "USA",
+			lat: 47.674,
+			lng: -122.122
+		},
+		"Regina": {
+			name: "Regina",
+			country: "CAN",
+			lat: 50.45,
+			lng: -104.618
+		},
+        "Roseville": {
+            name: "Roseville",
+            country: "USA",
+            lat: 38.752,
+            lng: -121.288
+        },
+        "Sackville": {
+            name: "Sackville",
+            country: "CAN",
+            lat: 45.919,
+            lng: -64.385
+        },
+		"San Francisco": {
+			name: "San Francisco",
+			country: "USA",
+			lat: 37.775,
+			lng: -122.419
+		},
+		"Santa Clara": {
+			name: "Santa Clara",
+			country: "USA",
+			lat: 37.354,
+			lng: -121.955
+		},
+		"Seattle": {
+			name: "Seattle",
+			country: "USA",
+			lat: 47.606,
+			lng: -122.332
+		},
+		"St. John's": {
+			name: "St. John's",
+			country: "CAN",
+			lat: 47.565,
+			lng: -52.709
+		},
+        "Stirling": {
+            name: "Stirling",
+            country: "GBR",
+            lat: 56.119,
+            lng: -3.937
+        },
+		"Sudbury": {
+			name: "Sudbury",
+			country: "CAN",
+			lat: 46.49,
+			lng: -80.99
+		},
+		"Takasaki": {
+			name: "Takasaki",
+			country: "JPN",
+			lat: 36.3410271,
+			lng: 138.88578
+		},
+		"Thunder Bay": {
+			name: "Thunder Bay",
+			country: "CAN",
+			lat: 48.382,
+			lng: -89.25
+		},
+		"Tokyo": {
+			name: "Tokyo",
+			country: "JPN",
+			lat: 35.6895,
+			lng: 139.69171
+		},
+		"Toronto": {
+			name: "Toronto",
+			country: "CAN",
+			lat: 43.7,
+			lng: -79.416
+		},
+		"Vancouver": {
+			name: "Vancouver",
+			country: "CAN",
+			lat: 49.25,
+			lng: -123.119
+		},
+		"Victoria": {
+			name: "Victoria",
+			country: "CAN",
+			lat: 48.4195,
+			lng: -123.3703
+		},
+		"Wawa": {
+			name: "Wawa",
+			country: "CAN",
+			lat: 47.983,
+			lng: -84.783
+		},
+		"Winnipeg": {
+			name: "Winnipeg",
+			country: "CAN",
+			lat: 49.884,
+			lng: -97.147
+		},
+		"Yosemite Valley": {
+			name: "Yosemite Valley",
+			country: "USA",
+			lat: 37.741,
+			lng: -119.578
+		},
+	}
+}
