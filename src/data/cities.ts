@@ -32,6 +32,12 @@ module data {
 			lat: 30.267,
 			lng: -97.743
 		},
+        "Barcelona": {
+            name: "Barcelona",
+            country: "ESP",
+            lat: 41.389,
+            lng: 2.159
+        },
         "Birmingham": {
             name: "Birmingham",
             country: "GBR",
@@ -104,6 +110,12 @@ module data {
             lat: 45.945,
             lng: -66.666
         },
+        "Geneva": {
+            name: "Geneva",
+            country: "CHE",
+            lat: 46.202,
+            lng: 6.146
+        },
         "Ghent": {
             name: "Ghent",
             country: "BEL",
@@ -115,6 +127,12 @@ module data {
             country: "GBR",
             lat: 55.865,
             lng: -4.258
+        },
+        "Grenoble": {
+            name: "Grenoble",
+            country: "FRA",
+            lat: 45.167,
+            lng: 5.717
         },
 		"Guelph": {
 			name: "Guelph",
@@ -169,6 +187,24 @@ module data {
             country: "USA",
             lat: 36.175,
             lng: -115.137
+        },
+        "Liverpool": {
+            name: "Liverpool",
+            country: "GBR",
+            lat: 53.411,
+            lng: -2.978
+        },
+        "London": {
+            name: "London",
+            country: "GBR",
+            lat: 51.509,
+            lng: -0.126
+        },
+        "Manchester": {
+            name: "Manchester",
+            country: "GBR",
+            lat: 53.481,
+            lng: -2.237
         },
 		"Manning Park": {
 			name: "Manning Park",
@@ -248,6 +284,12 @@ module data {
 			lat: 45.422,
 			lng: -75.7057
 		},
+        "Paris": {
+            name: "Paris",
+            country: "FRA",
+            lat: 48.853,
+            lng: 2.349
+        },
         "Pittsburgh": {
             name: "Pittsburgh",
             country: "USA",
@@ -259,6 +301,12 @@ module data {
             country: "USA",
             lat: 45.523,
             lng: -122.676
+        },
+        "Prague": {
+            name: "Prague",
+            country: "CZE",
+            lat: 50.088,
+            lng: 14.421
         },
 		"Punta Cana": {
 			name: "Punta Cana",

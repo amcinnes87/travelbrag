@@ -97,6 +97,54 @@ module data {
             ]
         },
         {
+            purpose: "European summer exchange",
+            travellers: ["Andrea"],
+            startDate: "2010-06",
+            endDate: "2010-07",
+            cities: [
+                {
+                    key: "Manchester",
+                    arrived: "2010",
+                    left: "2010"
+                },
+                {
+                    key: "Liverpool",
+                    arrived: "2010",
+                    left: "2010"
+                },
+                {
+                    key: "Prague",
+                    arrived: "2010",
+                    left: "2010"
+                },
+                {
+                    key: "Barcelona",
+                    arrived: "2010",
+                    left: "2010"
+                },
+                {
+                    key: "Grenoble",
+                    arrived: "2010",
+                    left: "2010"
+                },
+                {
+                    key: "Geneva",
+                    arrived: "2010",
+                    left: "2010"
+                },
+                {
+                    key: "Paris",
+                    arrived: "2010",
+                    left: "2010"
+                },
+                {
+                    key: "London",
+                    arrived: "2010",
+                    left: "2010"
+                }
+            ]
+        },
+        {
             purpose: "Visit RB & RC",
             travellers: ["Andrea", "Brett"],
             startDate: "2010-06-12",
