@@ -123,7 +123,7 @@ module data {
             ]
         },
         {
-            purpose: "WWW2010",
+            purpose: "WWW",
             travellers: ["Brett"],
             startDate: "2010-04-27",
             endDate: "2010-05-01",
