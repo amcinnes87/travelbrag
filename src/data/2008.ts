@@ -89,6 +89,19 @@ module data {
                     left: "2008-04"
                 }
             ]
+        },
+        {
+            purpose: "PyCon US",
+            travellers: ["Brett"],
+            startDate: "2008-03-12",
+            endDate: "2008-03-20",
+            cities: [
+                {
+                    key: "Rosemont",
+                    arrived: "2008-03-12",
+                    left: "2008-03-20"
+                }
+            ]
         }
 	];
 }
