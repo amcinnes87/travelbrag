@@ -21,6 +21,7 @@
 /// <reference path="2009.ts" />
 /// <reference path="2008.ts" />
 /// <reference path="2005.ts" />
+/// <reference path="2002.ts" />
 /// <reference path="1997.ts" />
 
 module data {
@@ -46,6 +47,7 @@ module data {
                                      .concat(data.trips2009)
                                      .concat(data.trips2008)
                                      .concat(data.trips2005)
+                                     .concat(data.trips2002)
                                      .concat(data.trips1997)
 		};
 	}
