@@ -92,6 +92,12 @@ module data {
             lat: 55.952,
             lng: -3.196
         },
+        "Edmonton": {
+            name: "Edmonton",
+            country: "CAN",
+            lat: 53.55,
+            lng: -113.469
+        },
         "Fredericton": {
             name: "Fredericton",
             country: "CAN",
@@ -158,6 +164,12 @@ module data {
 			lat: 48.04,
 			lng: -122.406
 		},
+        "Las Vegas": {
+            name: "Las Vegas",
+            country: "USA",
+            lat: 36.175,
+            lng: -115.137
+        },
 		"Manning Park": {
 			name: "Manning Park",
 			country: "CAN",

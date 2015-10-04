@@ -56,6 +56,19 @@ module data {
             ]
         },
         {
+            purpose: "Visit Las Vegas",
+            travellers: ["Andrea"],
+            startDate: "2009-08",
+            endDate: "2009-08",
+            cities: [
+                {
+                    key: "Las Vegas",
+                    arrived: "2009-08",
+                    left: "2009-08"
+                }
+            ]
+        },
+        {
             purpose: "Visit Todd",
             travellers: ["Brett"],
             startDate: "2009-08-21",
