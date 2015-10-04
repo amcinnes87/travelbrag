@@ -2,6 +2,12 @@
 
 module data {
 	export let cities: model.CityMap = {
+        "Addison": {
+            name: "Addison",
+            country: "USA",
+            lat: 32.962,
+            lng: -96.829
+        },
         "Anaheim": {
             name: "Anaheim",
             country: "USA",
