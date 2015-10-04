@@ -218,6 +218,12 @@ module data {
             lat: 51.509,
             lng: -0.126
         },
+        "Mammoth Lakes": {
+            name: "Mammoth Lakes",
+            country: "USA",
+            lat: 37.649,
+            lng: -118.972
+        },
         "Manchester": {
             name: "Manchester",
             country: "GBR",

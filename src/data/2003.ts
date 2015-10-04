@@ -4,6 +4,24 @@ module data {
 
     export let trips2003: model.Trip[] = [
         {
+            purpose: "Todd's wedding",
+            travellers: ["Brett"],
+            startDate: "2003-07",
+            endDate: "2003-07",
+            cities: [
+                {
+                    key: "Mammoth Lakes",
+                    arrived: "2003-07",
+                    left: "2003-07"
+                },
+                {
+                    key: "Yosemite Valley",
+                    arrived: "2003-07",
+                    left: "2003-07"
+                }
+            ]
+        },
+        {
             purpose: "PyCon US",
             travellers: ["Brett"],
             startDate: "2003-03",
