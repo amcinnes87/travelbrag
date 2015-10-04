@@ -1,0 +1,5 @@
+.vscode
+src/**/*.js
+src/**/*.js.map
+tests/specs/*.js
+tests/specs/*.js.map
