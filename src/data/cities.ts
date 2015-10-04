@@ -158,6 +158,12 @@ module data {
             lat: 44.646,
             lng: -63.573
         },
+        "Havana": {
+            name: "Havana",
+            country: "CUB",
+            lat: 23.133,
+            lng: -82.383
+        },
 		"Hiroshima": {
 			name: "Hiroshima",
 			country: "JPN",

@@ -208,6 +208,19 @@ module data {
                     left: "2010-02-22"
                 }
             ]
+        },
+        {
+            purpose: "Visit Cuba",
+            travellers: ["Andrea"],
+            startDate: "2010-02",
+            endDate: "2010-02",
+            cities: [
+                {
+                    key: "Havana",
+                    arrived: "2010-02",
+                    left: "2010-02"
+                }
+            ]
         }
     ];
 }
