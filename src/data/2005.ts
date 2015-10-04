@@ -20,6 +20,19 @@ module data {
                     left: "2005-07"
                 }
             ]
+        },
+        {
+            purpose: "PyCon US",
+            travellers: ["Brett"],
+            startDate: "2005-03",
+            endDate: "2005-03",
+            cities: [
+                {
+                    key: "Washington, D.C.",
+                    arrived: "2005-03",
+                    left: "2005-03"
+                }
+            ]
         }
     ];
 }

@@ -440,6 +440,12 @@ module data {
 			lat: 48.4195,
 			lng: -123.3703
 		},
+        "Washington, D.C.": {
+            name: "Washington, D.C.",
+            country: "USA",
+            lat: 38.895,
+            lng: -77.036
+        },
 		"Wawa": {
 			name: "Wawa",
 			country: "CAN",
