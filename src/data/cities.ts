@@ -50,6 +50,12 @@ module data {
             lat: 49.378,
             lng: -123.366
         },
+        "Brighton": {
+            name: "Brighton",
+            country: "GBR",
+            lat: 50.828,
+            lng: -0.139
+        },
         "Brussels": {
             name: "Brussels",
             country: "BEL",
@@ -284,6 +290,12 @@ module data {
 			lat: 45.422,
 			lng: -75.7057
 		},
+        "Oxford": {
+            name: "Oxford",
+            country: "GBR",
+            lat: 51.752,
+            lng: -1.256
+        },
         "Paris": {
             name: "Paris",
             country: "FRA",
@@ -440,6 +452,12 @@ module data {
 			lat: 49.884,
 			lng: -97.147
 		},
+        "York": {
+            name: "York",
+            country: "GBR",
+            lat: 53.958,
+            lng: -1.083
+        },
 		"Yosemite Valley": {
 			name: "Yosemite Valley",
 			country: "USA",
