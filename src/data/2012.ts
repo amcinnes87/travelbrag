@@ -81,7 +81,7 @@ module data {
 			]
 		},
         {
-            purpose: "Visit Kingston",
+            purpose: "Visit Kingston & Ottawa",
             travellers: ["Andrea", "Brett"],
             startDate: "2012-05-19",
             endDate: "2012-05-20",
@@ -89,6 +89,11 @@ module data {
                 {
                     key: "Kingston",
                     arrived: "2012-05-19",
+                    left: "2012-05-20"
+                },
+                {
+                    key: "Ottawa",
+                    arrived: "2012-05-20",
                     left: "2012-05-20"
                 }
             ]

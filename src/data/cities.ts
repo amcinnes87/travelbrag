@@ -278,6 +278,12 @@ module data {
 			lat: 50.45,
 			lng: -104.618
 		},
+        "Rosemont": {
+            name: "Rosemont",
+            country: "USA",
+            lat: 41.995,
+            lng: -87.885
+        },
         "Roseville": {
             name: "Roseville",
             country: "USA",
