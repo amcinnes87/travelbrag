@@ -11,14 +11,11 @@ module view {
 		var map = L.map(mapElement, {zoomControl: false, maxZoom: 15}).fitWorld();
 		L.control.zoom({position: 'bottomright'}).addTo(map);
 		L.tileLayer(
-			//"https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
-            "http://openmapsurfer.uni-hd.de/tiles/roadsg/x={x}&y={y}&z={z}",
+            "http://openmapsurfer.uni-hd.de/tiles/roads/x={x}&y={y}&z={z}",
 			{
-				maxZoom: 19,
-				attribution:
-				//'&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-                'Imagery from <a href="http://giscience.uni-hd.de/">GIScience Research Group @ University of Heidelberg</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-			}).addTo(map);
+				maxZoom: 20,
+				attribution: 'Imagery from <a href="http://giscience.uni-hd.de/">GIScience Research Group @ University of Heidelberg</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+            }).addTo(map);
 
 		return map;
 	}
