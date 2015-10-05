@@ -55,13 +55,13 @@ module data {
 		{
 			purpose: "Visit Paul in St. John's",
 			travellers: ["Andrea", "Brett"],
-			startDate: "2015-07-31",
-			endDate: "2015-08-04",
+			startDate: "2014-07-31",
+			endDate: "2014-08-04",
 			cities: [
 				{
 					key: "St. John's",
-					arrived: "2015-07-31",
-					left: "2015-08-04"
+					arrived: "2014-07-31",
+					left: "2014-08-04"
 				}
 			]
 		},
