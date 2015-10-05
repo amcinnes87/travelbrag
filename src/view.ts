@@ -99,7 +99,7 @@ module view {
                     '<circle cx="16" cy="16" r="5" />' +
                   '</mask>' +
 			      '<path d="M16 1C7.715 1 1 7.656 1 15.865 1 24.075 16 51 16 51s15-26.924 15-35.135C31 7.655 24.282 1 16 1z" ' +
-			  	        'fill="{colour}" fill-opacity="0.4" mask="url(#pinhole)" />' +
+			  	        'fill="{colour}" fill-opacity="0.5" mask="url(#pinhole)" />' +
                   '<circle cx="16" cy="16" r="5" fill="none" stroke-width="1" stroke="black" />' +
 			      //'<circle cx="16" cy="16" r="5" fill="#fff" stroke="#000"/>' +
 			  '</svg>';
