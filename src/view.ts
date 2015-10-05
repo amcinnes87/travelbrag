@@ -12,8 +12,8 @@ module view {
             "https://otile{s}-s.mqcdn.com/tiles/1.0.0/sat/{z}/{x}/{y}.jpg",
 			{
                 subdomains: ['1', '2', '3', '4'],
-				attribution: 'Tiles Courtesy of <a href="http://www.mapquest.com/">MapQuest</a> &mdash; ' +
-							'Portions Courtesy NASA/JPL-Caltech and U.S. Dept. of Agriculture, Farm Service Agency'
+				attribution: 'Tiles courtesy of <a href="http://www.mapquest.com/">MapQuest</a> &mdash; ' +
+							'Portions courtesy NASA/JPL-Caltech &amp; U.S. Dept. of Agriculture'
             }).addTo(map);
         L.tileLayer(
             "https://otile{s}-s.mqcdn.com/tiles/1.0.0/hyb/{z}/{x}/{y}.png",
