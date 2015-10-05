@@ -128,6 +128,19 @@ module data {
                     left: "2012-03-13"
                 }
             ]
+        },
+        {
+            purpose: "Visit Niagara Falls",
+            travellers: ["Andrea", "Brett"],
+            startDate: "2012-01",
+            endDate: "2012-01",
+            cities: [
+                {
+                    key: "Niagara Falls",
+                    arrived: "2012-01",
+                    left: "2012-01"
+                }
+            ]
         }
 	];
 }

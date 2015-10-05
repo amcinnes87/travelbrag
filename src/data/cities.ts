@@ -290,6 +290,12 @@ module data {
 			lat: 40.714,
 			lng: -74.006
 		},
+        "Niagara Falls": {
+            name: "Niagara Falls",
+            country: "CAN",
+            lat: 43.0792,
+            lng: -79.0784
+        },
 		"Osaka": {
 			name: "Osaka",
 			country: "JPN",
