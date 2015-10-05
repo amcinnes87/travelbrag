@@ -35,7 +35,6 @@ module view {
 
 		constructor(travellers: model.Traveller) {
 			this.colour = travellers.colour;
-			console.log(travellers.names);
 			for (let name of travellers.names) {
 				this.names[name] = true;
 			}
