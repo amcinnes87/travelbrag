@@ -9,19 +9,15 @@ module view {
 		var map = L.map(mapElement, {zoomControl: false, maxZoom: 15}).fitWorld();
 		L.control.zoom({position: 'bottomright'}).addTo(map);
 		L.tileLayer(
-            "https://otile{s}-s.mqcdn.com/tiles/1.0.0/{type}/{z}/{x}/{y}.{ext}",
+            "https://otile{s}-s.mqcdn.com/tiles/1.0.0/sat/{z}/{x}/{y}.jpg",
 			{
-                type: "sat",
-                ext: "jpg",
                 subdomains: ['1', '2', '3', '4'],
 				attribution: 'Tiles Courtesy of <a href="http://www.mapquest.com/">MapQuest</a> &mdash; ' +
 							'Portions Courtesy NASA/JPL-Caltech and U.S. Dept. of Agriculture, Farm Service Agency'
             }).addTo(map);
         L.tileLayer(
-            "https://otile{s}-s.mqcdn.com/tiles/1.0.0/{type}/{z}/{x}/{y}.{ext}",
+            "https://otile{s}-s.mqcdn.com/tiles/1.0.0/hyb/{z}/{x}/{y}.png",
 			{
-                type: "hyb",
-                ext: "png",
                 subdomains: ['1', '2', '3', '4'],
                 opacity: 0.9
             }).addTo(map);
