@@ -68,48 +68,48 @@ module data {
 		{
 			purpose: "Our reception",
 			travellers: ["Andrea", "Brett"],
-			startDate: "2015-06-12",
-			endDate: "2015-06-28",
+			startDate: "2014-06-12",
+			endDate: "2014-06-28",
 			cities: [
 				{
 					key: "Vancouver",
-					arrived: "2015-06-12",
-					left: "2015-06-14"
+					arrived: "2014-06-12",
+					left: "2014-06-14"
 				},
 				{
 					key: "Victoria",
-					arrived: "2015-06-14",
-					left: "2015-06-16",
+					arrived: "2014-06-14",
+					left: "2014-06-16",
 				},
 				{
 					key: "Vancouver",
-					arrived: "2015-06-16",
-					left: "2015-06-18"
+					arrived: "2014-06-16",
+					left: "2014-06-18"
 				},
 				{
 					key: "Manning Park",
-					arrived: "2015-06-18",
-					left: "2015-06-20"
+					arrived: "2014-06-18",
+					left: "2014-06-20"
 				},
 				{
 					key: "Osoyoos",
-					arrived: "2015-06-20",
-					left: "2015-06-22"
+					arrived: "2014-06-20",
+					left: "2014-06-22"
 				},
 				{
 					key: "Kelowna",
-					arrived: "2015-06-22",
-					left: "2015-06-24"
+					arrived: "2014-06-22",
+					left: "2014-06-24"
 				},
 				{
 					key: "Monck Park",
-					arrived: "2015-06-24",
-					left: "2015-06-25"
+					arrived: "2014-06-24",
+					left: "2014-06-25"
 				},
 				{
 					key: "Vancouver",
-					arrived: "2015-06-25",
-					left: "2015-06-28"
+					arrived: "2014-06-25",
+					left: "2014-06-28"
 				},
 			]
 		},
