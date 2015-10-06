@@ -1,0 +1,32 @@
+{
+  "name": "travelbrag",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {},
+  "devDependencies": {
+      "surge": "latest",
+      "git-scripts": "^0.2.1"
+  },
+  "git": {
+    "scripts": {
+          "pre-push": "surge --project src/"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/brettcannon/travelbrag.git"
+  },
+  "author": "Brett Cannon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/brettcannon/travelbrag/issues"
+  },
+  "homepage": "https://gitlab.com/brettcannon/travelbrag#README"
+}
