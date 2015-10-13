@@ -2,10 +2,11 @@
 
 module viewmodel {
 
-	export interface City extends model.City {
-		travellers: string[];
-		lastVisited: string;  // ISO 8601.
-	}
+    export interface City extends model.City {
+        travellers: string[];
+        lastVisited: string;  // ISO 8601.
+        photos?: string;  // URL.
+    }
 
 	var copyCity = (allCities: model.CityMap, trip: model.Trip,
 						tripCity: model.VisitedCity): City => {
@@ -14,7 +15,8 @@ module viewmodel {
 			console.log(tripCity.key + " is not a valid city key");
 			return null;
 		}
-		return {
+
+        let city: City = {
 			name: cityDetails.name,
 			country: cityDetails.country,
 			lat: cityDetails.lat,
@@ -22,6 +24,12 @@ module viewmodel {
 			travellers: trip.travellers.slice(),
 			lastVisited: tripCity.left
 		};
+
+        if (trip.photos) {
+            city.photos = trip.photos;
+        }
+
+        return city;
 	}
 
 	function updateTravellers(city: City, trip: model.Trip): void {
@@ -41,6 +49,15 @@ module viewmodel {
 		}
 	}
 
+    function updatePhotos(city: City, trip: model.Trip): void {
+        let newPhotos = trip.photos;
+        if (newPhotos) {
+            city.photos = newPhotos;
+        } else {
+            delete city.photos;
+        }
+    }
+
 	export function tripsToCities(allCities: model.CityMap, trips: model.Trip[]): City[] {
 		let visitedCities: City[] = [];
 		let citiesIndex: {[key: string]: number} = {};
@@ -54,6 +71,7 @@ module viewmodel {
 					let visitedCity = visitedCities[cityIndex];
 					updateTravellers(visitedCity, trip);
 					updateLastVisited(visitedCity, tripCity);
+                    updatePhotos(visitedCity, trip);
 				}
 			}
 		}

@@ -121,13 +121,15 @@ module view {
 	}
 
 	function createMarker(latLng: L.LatLng, name: string, colour: string,
-			lastVisitedDate: string): L.Marker {
+			lastVisitedDate: string, photos: string): L.Marker {
 		let icon = createPin(colour);
 		let marker = L.marker(latLng, {icon: icon});
 		let popup = "<b>" + name + "</b>";
 		popup += "<br><i><small>Last visited in " + lastVisited(lastVisitedDate) +
 				 "</i></small>";
-		// XXX Link to photos.
+        if (photos) {
+            popup += '<br><a href="' + photos + '"><img src="photos.svg"></a>';
+        }
 		marker.bindPopup(popup);
 
 		return marker;
@@ -142,7 +144,9 @@ module view {
 			let latLng = L.latLng(city.lat, city.lng);
 			let name = [city.name, city.country].join(", ");
 			let lastVisited = city.lastVisited;
-			pinGroup.addLayer(createMarker(latLng, name, colour, lastVisited));
+            let photos = city.photos;
+			pinGroup.addLayer(
+                    createMarker(latLng, name, colour, lastVisited, photos));
 		}
 
 		return pinGroup;
