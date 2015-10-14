@@ -61,6 +61,7 @@ module data {
 			travellers: ["Andrea", "Brett"],
 			startDate: "2015-06-22",
 			endDate: "2015-07-01",
+            photos: "https://photos.google.com/album/AF1QipPc-IJBdcaI8up9K2prl5kW9PJSnE74SysFc0o",
 			cities: [
 				{
 					key: "Guelph",
@@ -114,6 +115,7 @@ module data {
 			travellers: ["Andrea", "Brett"],
 			startDate: 	"2015-05-17",
 			endDate: "2015-05-19",
+            photos: "https://photos.google.com/album/AF1QipPag-aeV-xxUaMB52TBmz7tht28NGyZtgaziQM",
 			cities: [
 				{
 					key: "Austin",
