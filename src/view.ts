@@ -128,7 +128,7 @@ module view {
 		popup += "<br><i><small>Last visited in " + lastVisited(lastVisitedDate) +
 				 "</i></small>";
         if (photos) {
-            popup += '<br><a href="' + photos + '"><img src="photos.svg"></a>';
+            popup += '<br><a target="_blank" href="' + photos + '"><img src="photos.svg"></a>';
         }
 		marker.bindPopup(popup);
 
