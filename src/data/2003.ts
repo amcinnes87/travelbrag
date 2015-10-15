@@ -33,6 +33,19 @@ module data {
                     left: "2003-03"
                 }
             ]
+        },
+        {
+            purpose: "Todd's bachelor party",
+            travellers: ["Brett"],
+            startDate: "2003",
+            endDate: "2003",
+            cities: [
+                {
+                    key: "Las Vegas",
+                    arrived: "2003",
+                    left: "2003"
+                }
+            ]
         }
     ];
 }
