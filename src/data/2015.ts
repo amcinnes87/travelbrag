@@ -143,6 +143,7 @@ module data {
 			startDate: "2015-04-07",
 			endDate: "2015-04-15",
 			comment: "Andrea didn't come until the 10th",
+            photos: "https://photos.google.com/story/AF1QipNbZrqmIprcMFibiE3sjofeNb_dPU_afHjiV45sQ_VSrRLExcGTmHo6q93nvfyJ0Q",
 			cities: [
 				{
 					key: "Montreal",
@@ -156,6 +157,7 @@ module data {
 			travellers: ["Brett", "Andrea"],
 			startDate: "2015-04-02",
 			endDate: "2015-04-07",
+            photos: "https://photos.google.com/story/AF1QipNbZrqmIprcMFibiE3sjofeNb_dPU_afHjiV45sQ_VSrRLExcGTmHo6q93nvfyJ0Q",
 			cities: [
 				{
 					key: "Montclair",
