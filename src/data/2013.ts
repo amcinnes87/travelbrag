@@ -47,6 +47,7 @@ module data {
 			travellers: ["Andrea", "Brett"],
 			startDate: "2013-08-02",
 			endDate: "2013-08-05",
+            photos: "https://goo.gl/photos/dZYzbNfTGmXW8Q7Y9",
 			cities: [
 				{
 					key: "Ann Arbor",
@@ -60,6 +61,7 @@ module data {
 			travellers: ["Andrea", "Brett"],
 			startDate: "2013-06-25",
 			endDate: "2013-06-30",
+            photos: "https://goo.gl/photos/nrypTuwK8mHkP56H7",
 			cities: [
 				{
 					key: "New York",
@@ -86,6 +88,7 @@ module data {
 			travellers: ["Andrea", "Brett"],
 			startDate: "2013-05-17",
 			endDate: "2013-05-22",
+            photos: "https://goo.gl/photos/a8JaYv3xR9o6JJDb6",
 			cities: [
 				{
 					key: "Ottawa",
@@ -99,6 +102,7 @@ module data {
 			travellers: ["Andrea", "Brett"],
 			startDate: "2013-05-07",
 			endDate: "2013-05-10",
+            photos: "https://goo.gl/photos/Uzp3tKippNs5BVD89",
 			cities: [
 				{
 					key: "Punta Cana",
