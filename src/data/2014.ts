@@ -8,6 +8,7 @@ module data {
 			travellers: ["Andrea", "Brett"],
 			startDate: "2014-12-18",
 			endDate: "2015-01-02",
+            photos: "https://goo.gl/photos/33zQFF6GcZrwVECc8",
 			cities: [
 				{
 					key: "Vancouver",
@@ -21,6 +22,7 @@ module data {
 			travellers: ["Andrea", "Brett"],
 			startDate: "2014-10-10",
 			endDate: "2014-10-15",
+            photos: "https://goo.gl/photos/vTjUg3mqy5L7simq6",
 			cities: [
 				{
 					key: "San Francisco",
@@ -57,6 +59,7 @@ module data {
 			travellers: ["Andrea", "Brett"],
 			startDate: "2014-07-31",
 			endDate: "2014-08-04",
+            photos: "https://goo.gl/photos/MXJQt4wk5Dtbp3PS6",
 			cities: [
 				{
 					key: "St. John's",
@@ -70,6 +73,7 @@ module data {
 			travellers: ["Andrea", "Brett"],
 			startDate: "2014-06-12",
 			endDate: "2014-06-28",
+            photos: "https://goo.gl/photos/rWUxemD5Ema6oKfK9",
 			cities: [
 				{
 					key: "Vancouver",
@@ -118,6 +122,7 @@ module data {
 			travellers: ["Andrea", "Brett"],
 			startDate: "2015-04-08",
 			endDate: "2015-04-16",
+            photos: "https://goo.gl/photos/vfqJkdJjC7PAFA6SA",
 			cities: [
 				{
 					key: "Montreal",
