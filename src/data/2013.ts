@@ -116,6 +116,7 @@ module data {
 			travellers: ["Andrea", "Brett"],
 			startDate: "2013-03-12",
 			endDate: "2013-03-18",
+            photos: "https://goo.gl/photos/nDWm3iw3zgEifJPv9",
 			cities: [
 				{
 					key: "Santa Clara",
