@@ -61,7 +61,7 @@ module data {
 			travellers: ["Andrea", "Brett"],
 			startDate: "2015-06-22",
 			endDate: "2015-07-01",
-            photos: "https://photos.google.com/album/AF1QipPc-IJBdcaI8up9K2prl5kW9PJSnE74SysFc0o",
+            photos: "https://goo.gl/photos/anSScBvK1yvJMwg26",
 			cities: [
 				{
 					key: "Guelph",
@@ -115,7 +115,7 @@ module data {
 			travellers: ["Andrea", "Brett"],
 			startDate: 	"2015-05-17",
 			endDate: "2015-05-19",
-            photos: "https://photos.google.com/album/AF1QipPag-aeV-xxUaMB52TBmz7tht28NGyZtgaziQM",
+            photos: "https://goo.gl/photos/TcjCPCmu85SeAXyA7",
 			cities: [
 				{
 					key: "Austin",
@@ -143,7 +143,7 @@ module data {
 			startDate: "2015-04-07",
 			endDate: "2015-04-15",
 			comment: "Andrea didn't come until the 10th",
-            photos: "https://photos.google.com/story/AF1QipNbZrqmIprcMFibiE3sjofeNb_dPU_afHjiV45sQ_VSrRLExcGTmHo6q93nvfyJ0Q",
+            photos: "https://goo.gl/photos/dxGD9qh69W4RR5iM6",
 			cities: [
 				{
 					key: "Montreal",
@@ -157,7 +157,7 @@ module data {
 			travellers: ["Brett", "Andrea"],
 			startDate: "2015-04-02",
 			endDate: "2015-04-07",
-            photos: "https://photos.google.com/story/AF1QipNbZrqmIprcMFibiE3sjofeNb_dPU_afHjiV45sQ_VSrRLExcGTmHo6q93nvfyJ0Q",
+            photos: "https://goo.gl/photos/dxGD9qh69W4RR5iM6",
 			cities: [
 				{
 					key: "Montclair",
