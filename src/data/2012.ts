@@ -21,6 +21,7 @@ module data {
 			travellers: ["Brett"],
 			startDate: "2012-11-12",
 			endDate: "2012-11-19",
+            photos: "https://goo.gl/photos/BJD3TBnXjM8Veyvj8",
 			cities: [
 				{
 					key: "Buenos Aires",
@@ -34,6 +35,7 @@ module data {
 			travellers: ["Andrea", "Brett"],
 			startDate: "2012-10-05",
 			endDate: "2012-10-09",
+            photos: "https://goo.gl/photos/DFcTDkQQQjT1taC57",
 			cities: [
 				{
 					key: "Chicago",
@@ -47,6 +49,7 @@ module data {
 			travellers: ["Andrea", "Brett"],
 			startDate: "2012-06-16",
 			endDate: "2012-06-22",
+            photos: "https://goo.gl/photos/h8QpeDwFTAMHVMFD7",
 			cities: [
 				{
 					key: "Montreal",
@@ -85,6 +88,7 @@ module data {
             travellers: ["Andrea", "Brett"],
             startDate: "2012-05-19",
             endDate: "2012-05-20",
+            photos: "https://goo.gl/photos/7HRb9iEfhx3LLX3n9",
             cities: [
                 {
                     key: "Kingston",
@@ -116,6 +120,7 @@ module data {
             travellers: ["Andrea", "Brett"],
             startDate: "2012-03-02",
             endDate: "2012-03-13",
+            photos: "https://goo.gl/photos/fYDsfnSrEsnCCUQK9",
             cities: [
                 {
                     key: "Anaheim",
@@ -134,6 +139,7 @@ module data {
             travellers: ["Andrea", "Brett"],
             startDate: "2012-01",
             endDate: "2012-01",
+            photos: "https://goo.gl/photos/YQr18q3v11KnS8NR8",
             cities: [
                 {
                     key: "Niagara Falls",
