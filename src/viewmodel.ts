@@ -53,8 +53,6 @@ module viewmodel {
         let newPhotos = trip.photos;
         if (newPhotos) {
             city.photos = newPhotos;
-        } else {
-            delete city.photos;
         }
     }
 
