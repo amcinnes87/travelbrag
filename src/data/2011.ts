@@ -8,6 +8,7 @@ module data {
             travellers: ["Andrea", "Brett"],
             startDate: "2011-12-22",
             endDate: "2011-12-29",
+            photos: "https://goo.gl/photos/DaNv3Kz8sPKaahx18",
             cities: [
                 {
                     key: "Montclair",
@@ -157,6 +158,7 @@ module data {
             startDate: "2011-06-30",
             endDate: "2011-07-05",
             comment: "Andrea was already in Vancouver",
+            photos: "https://goo.gl/photos/z4G9T8NtnrudsF6u6",
             cities: [
                 {
                     key: "Vancouver",
@@ -206,6 +208,7 @@ module data {
             travellers: ["Brett"],
             startDate: "2011-05-28",
             endDate: "2011-06-05",
+            photos: "https://goo.gl/photos/ddyLtAaKCk4yPmQ2A",
             cities: [
                 {
                     key: "Vancouver",
@@ -219,6 +222,7 @@ module data {
             travellers: ["Andrea", "Brett"],
             startDate: "2011-05-02",
             endDate: "2011-05-12",
+            photos: "https://goo.gl/photos/26AmgJ5j82ioPu5V8",
             cities: [
                 {
                     key: "Roseville",
