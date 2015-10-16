@@ -47,6 +47,7 @@ module data {
             travellers: ["Andrea", "Brett"],
             startDate: "2010-07-24",
             endDate: "2010-07-31",
+            photos: "https://goo.gl/photos/r7fSbhLV8L2CCD8T6",
             cities: [
                 {
                     key: "Lancaster",
@@ -162,6 +163,7 @@ module data {
             travellers: ["Andrea", "Brett"],
             startDate: "2010-05-21",
             endDate: "2010-05-24",
+            photos: "https://goo.gl/photos/oh2cjKaPbepKeJoU7",
             cities: [
                 {
                     key: "San Francisco",
