@@ -2,6 +2,34 @@
 
 module data {
 	export var trips2015: model.Trip[] = [
+        {
+            purpose: "PyCon CA/PyData NYC",
+            travellers: ["Andrea", "Brett"],
+            startDate: "2015-11-06",
+            endDate: "2015-11-15",
+            cities: [
+                {
+                    key: "Toronto",
+                    arrived: "2015-11-06",
+                    left: "2015-11-08"
+                },
+                {
+                    key: "New York",
+                    arrived: "2015-11-08",
+                    left: "2015-11-11"
+                },
+                {
+                    key: "Union City",
+                    arrived: "2015-11-11",
+                    left: "2015-11-15"
+                },
+                {
+                    key: "New Haven",
+                    arrived: "2015-11-14",
+                    left: "2015-11-14"
+                }
+            ]
+        },
 		{
 			purpose: "Continuum work",
 			travellers: ["Andrea"],

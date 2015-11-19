@@ -326,6 +326,12 @@ module data {
                         lat: 49.5,
                         lng: -117.286
                 },
+                "New Haven": {
+                        name: "New Haven",
+                        country: "USA",
+                        lat: 41.31121,
+                        lng: -72.92649
+                },
                 "New York": {
                         name: "New York",
                         country: "USA",
@@ -511,6 +517,12 @@ module data {
                         country: "CAN",
                         lat: 43.7,
                         lng: -79.416
+                },
+                "Union City": {
+                        name: "Union City",
+                        country: "USA",
+                        lat: 40.78,
+                        lng: -74.024
                 },
                 "Vancouver": {
                         name: "Vancouver",
