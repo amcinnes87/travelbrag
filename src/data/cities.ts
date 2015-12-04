@@ -68,6 +68,12 @@ module data {
                         lat: 52.481,
                         lng: -1.9
                 },
+                "Boise": {
+                        name: "Boise",
+                        country: "USA",
+                        lat: 43.6177,
+                        lng: -116.1996
+                },
                 "Bowen Island": {
                         name: "Bowen Island",
                         country: "CAN",

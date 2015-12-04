@@ -12,7 +12,12 @@ module data {
                     key: "Meridian",
                     arrived: "2015-11-23",
                     left: "2015-11-30"
-                }
+                },
+                {
+                    key: "Boise",
+                    arrived: "2015-11-28",
+                    left: "2015-11-28"
+                },
             ]
         },
         {
