@@ -3,6 +3,19 @@
 module data {
 	export var trips2015: model.Trip[] = [
         {
+            purpose: "MLADS",
+            travellers: ["Brett"],
+            startDate: "2015-12-06",
+            endDate: "2015-12-11",
+            cities: [
+                {
+                    key: "Redmond",
+                    arrived: "2015-12-06",
+                    left: "2015-12-11"
+                }
+            ]
+        },
+        {
             purpose: "US Thanksgiving",
             travellers: ["Andrea", "Brett"],
             startDate: "2015-11-23",
