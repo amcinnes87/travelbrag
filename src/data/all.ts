@@ -12,6 +12,7 @@
 /// <reference path="../model.ts" />
 /// <reference path="travellers.ts" />
 /// <reference path="cities.ts" />
+/// <reference path="2016.ts" />
 /// <reference path="2015.ts" />
 /// <reference path="2014.ts" />
 /// <reference path="2013.ts" />
@@ -69,6 +70,8 @@ module data {
                                      .concat(data.trips1997)
                                      // 1996
                                      .concat(data.trips1995)
+                                     // Years since initial creation.
+                                     .concat(data.trips2016)
 		};
 	}
 }
