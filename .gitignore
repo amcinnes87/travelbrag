@@ -8,5 +8,6 @@ tests/specs/*.js
 tests/specs/*.js.map
 
 # Jupyter-based solution.
+__pycache__
 venv
 .ipynb_checkpoints
