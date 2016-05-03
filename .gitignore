@@ -1,13 +1,4 @@
-# Node-based solution.
-node_modules
-src/*.js
-src/*.js.map
-src/data/*.js
-src/data/*.js.map
-tests/specs/*.js
-tests/specs/*.js.map
-
-# Jupyter-based solution.
 __pycache__
 venv
 .ipynb_checkpoints
+.vscode
