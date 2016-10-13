@@ -52,6 +52,7 @@
             var popup = "<b>" + feature.properties["city"] + "</b>";
             popup += "<br><i><small>Last visited on "
                      + feature.properties["last visit"]
+                     + (feature.properties["work"] ? " for work" : "")
                      + "</i></small>";
             marker.bindPopup(popup);
             return marker;
