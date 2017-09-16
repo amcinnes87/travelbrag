@@ -50,7 +50,7 @@
             var icon = createPin(feature.properties["marker-color"]);
             var marker = L.marker(latLng, { icon: icon });
             var popup = "<b>" + feature.properties["city"] + "</b>";
-            popup += "<br><i><small>Last visited on "
+            popup += "<br><i><small>Last stay on "
                      + feature.properties["last visit"]
                      + (feature.properties["work"] ? " for work" : "")
                      + "</i></small>";
